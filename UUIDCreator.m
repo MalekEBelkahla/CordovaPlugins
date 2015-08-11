@@ -38,7 +38,6 @@
 - (void) writeUUID{
     @try {
         if ([[NSUserDefaults standardUserDefaults] objectForKey:KDeviceIdentifierKey] == nil) {
-            //[SFHFKeychainUtils deleteItemForUsername:@"CFUID" andServiceName:@"Choosit" error:nil];
             NSString * cfuuidStr = [SFHFKeychainUtils getPasswordForUsername:@"CFUID" andServiceName:@"Choosit" error:nil];
             if (!cfuuidStr) {
                 CFStringRef cfUuid = CFUUIDCreateString(NULL, CFUUIDCreate(NULL));
