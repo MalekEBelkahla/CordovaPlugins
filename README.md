@@ -7,7 +7,7 @@ This plugin is for use with [Cordova](http://incubator.apache.org/cordova/), and
 
 	The MIT License
 
-	Copyright (c) 2015 [Proxym-IT](http://www.proxym-it.com/).
+	Copyright (c) 2015 Proxym-IT.
 	portions Copyright (c) 2015 Malek BELKAHLA
 
 	Permission is hereby granted, free of charge, to any person obtaining a copy
