@@ -42,7 +42,7 @@ This plugin uses [SFHFKeychain Class](https://github.com/jayway/SFHFKeychainUtil
 #xCode Project Side
 
 - Import the UUIDCreator.h inside the AppDelegate Class (#import "UUIDCreator.h")
-- Create an instance of the object UUIDCreator inside the AppDelegate Class 
+- Create an instance of the object UUIDCreator inside the AppDelegate Class and call the writeUUID function.
  ```zsh
 	-(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions 
 	{
@@ -52,4 +52,14 @@ This plugin uses [SFHFKeychain Class](https://github.com/jayway/SFHFKeychainUtil
     
     		...
 	}
+```
+#cordova Project Side
+- Call this plugin with cordova
+```zsh
+cordova.exec(function(winParam) {},
+                 function(error) {},
+                 "UUIDCreator",
+                 "readUUID",
+                 []);
+
 ```
