@@ -44,11 +44,11 @@ This plugin uses [SFHFKeychain Class](https://github.com/jayway/SFHFKeychainUtil
 - Import the UUIDCreator.h inside the AppDelegate Class (#import "UUIDCreator.h")
 - Create an instance of the object UUIDCreator inside the AppDelegate Class 
  
--(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions 
-{
+	-(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions 
+	{
     
-    UUIDCreator *uuidCreator = [[UUIDCreator alloc] init];
-    [uuidCreator writeUUID];
+    		UUIDCreator *uuidCreator = [[UUIDCreator alloc] init];
+    		[uuidCreator writeUUID];
     
-    ...
-}
+    		...
+	}
