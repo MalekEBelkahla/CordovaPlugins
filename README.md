@@ -7,8 +7,8 @@ This plugin is for use with [Cordova](http://incubator.apache.org/cordova/), and
 
 	The MIT License
 
-	Copyright (c) 2012 Adobe Systems, inc.
-	portions Copyright (c) 2012 Olivier Louvignes
+	Copyright (c) 2015 [Proxym-IT](http://www.proxym-it.com/).
+	portions Copyright (c) 2015 Malek BELKAHLA
 
 	Permission is hereby granted, free of charge, to any person obtaining a copy
 	of this software and associated documentation files (the "Software"), to deal
