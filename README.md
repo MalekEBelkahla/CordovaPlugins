@@ -53,6 +53,13 @@ This plugin uses [SFHFKeychain Class](https://github.com/jayway/SFHFKeychainUtil
     		...
 	}
 ```
+- Change the config.xml file to add our plugin
+```zsh
+    <!-- UUIDCreator Plugin -->
+    <feature name="UUIDCreator">
+        <param name="ios-package" value="UUIDCreator" />
+    </feature>
+```
 #cordova Project Side
 - Call this plugin with cordova
 ```zsh
