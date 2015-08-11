@@ -1,6 +1,6 @@
 //
 //  UUIDCreator.h
-//  QIIBQIIBIphone
+//  (c) Proxym-IT 
 //
 //  Created by Malek BelKahla on 10/08/2015.
 //
