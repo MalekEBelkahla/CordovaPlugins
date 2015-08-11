@@ -3,6 +3,10 @@
 ## DESCRIPTION
 
 This plugin is for use with [Cordova](http://incubator.apache.org/cordova/), and allows your application to read the UUID of IOS devices.
+
+This plugin use both NSUserDefaults Class and Keychain storage to generate and read the UUID string to be used inside a cordova application.
+The use of keychain storage to ensure the uniqueness of UUID even after uninstallation and reinstallation of the application.
+
 ##<a name="license"></a> LICENSE
 
 	The MIT License
@@ -32,3 +36,5 @@ This plugin is for use with [Cordova](http://incubator.apache.org/cordova/), and
 
 
 ##<a name="manual_installation"></a>Manual Installation
+
+[SFHFKeychain Class](https://github.com/jayway/SFHFKeychainUtils)
