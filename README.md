@@ -38,3 +38,16 @@ The use of keychain storage to ensure the uniqueness of UUID even after uninstal
 ##<a name="manual_installation"></a>Manual Installation
 
 This plugin uses [SFHFKeychain Class](https://github.com/jayway/SFHFKeychainUtils) to read and save the UUID to Keychain storage.
+
+#xCode Project Side
+
+- Import the UUIDCreator.h inside the AppDelegate Class (#import "UUIDCreator.h")
+- Create an instance of the object UUIDCreator inside the AppDelegate Class 
+ (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions 
+{
+    
+    UUIDCreator *uuidCreator = [[UUIDCreator alloc] init];
+    [uuidCreator writeUUID];
+    
+    ...
+}
