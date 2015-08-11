@@ -61,7 +61,7 @@ This plugin uses [SFHFKeychain Class](https://github.com/jayway/SFHFKeychainUtil
     </feature>
 ```
 #cordova Project Side
-- Call this plugin with cordova
+- Call the UUIDCreator plugin with cordova
 ```zsh
 cordova.exec(function(winParam) {},
                  function(error) {},
