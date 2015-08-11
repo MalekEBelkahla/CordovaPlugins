@@ -37,4 +37,4 @@ The use of keychain storage to ensure the uniqueness of UUID even after uninstal
 
 ##<a name="manual_installation"></a>Manual Installation
 
-[SFHFKeychain Class](https://github.com/jayway/SFHFKeychainUtils)
+This plugin uses [SFHFKeychain Class](https://github.com/jayway/SFHFKeychainUtils) to read and save the UUID to Keychain storage.
